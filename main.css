@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+    width: 100vw;
+    background-color: #FAF8EF;
+}
+
+#container {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#show {
+    text-align: center;
+    vertical-align: top;
+    font-size: 4em;
+    font-weight: bolder;
+    line-height: 100px;
+    color: #776E66;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+#top {
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+#score,
+#best {
+    vertical-align: top;
+    margin: 20px 10px;
+    display: inline-block;
+    background-color: #BBADA1;
+    width: 100px;
+    height: 60px;
+    color: #F7FAFF;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 10px;
+}
+
+#sc,
+#be {
+    font-size: 2.5em;
+    line-height: 45px;
+}
+
+p {
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    height: 30px;
+    line-height: 30px;
+    width: 350px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+#result {
+    margin: 0 auto;
+    padding: 10px;
+    width: 480px;
+    height: 480px;
+    background-color: #BBADA1;
+    border-radius: 5px;
+}
+
+#btn {
+    position: absolute;
+    right: 35px;
+    display: inline-block;
+    background-color: #8E7A67;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bolder;
+    color: #c7b9ad;
+    cursor: pointer;
+}
+
+.cell {
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #CDC0B5;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+    border-radius: 5px;
+    line-height: 100px;
+}
+
+.c2 {
+    background-color: #EEE4DB;
+    color: #766E65;
+}
+
+.c4 {
+    background-color: #EDE0C9;
+    color: #776E66;
+}
+
+.c8 {
+    background-color: #F3AF7E;
+    color: #FDF1F2;
+}
+
+.c16 {
+    background-color: #F59269;
+    color: #FCF4F6;
+}
+
+.c32 {
+    background-color: #F77B66;
+    color: #FDF3F3;
+}
+
+.c64 {
+    background-color: #F45B45;
+    color: #FCF2F1;
+}
+
+.c128 {
+    background-color: #EECB7B;
+    color: #FBF2F7;
+    font-size: 3em;
+}
+
+.c256 {
+    background-color: #EDC86B;
+    color: #FFF5F6;
+    font-size: 3em;
+}
+
+.c512 {
+    background-color: #EE6570;
+    color: #EFE8EA;
+    font-size: 3em;
+}
+
+.c1024 {
+    background-color: #E14341;
+    color: #FFF0F3;
+    font-size: 2em;
+}
+
+.c2048 {
+     background-color: #147ABB;
+    color: #FFF0F3;
+    font-size: 2em;
+}
